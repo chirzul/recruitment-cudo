@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "6b43b6d2-d753-40e3-8ce9-7b6196fae506",
+		"name": "Organization",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31355407"
+	},
+	"item": [
+		{
+			"name": "GenerateJSONStructure",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"org_id\":\"0511cbcb-2db2-4fa0-908c-2cae962a8553\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/GenerateJSONStructure",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"GenerateJSONStructure"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
